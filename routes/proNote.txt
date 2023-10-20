@@ -1,0 +1,15 @@
+php artisan make:migration create_contact_table
+php artisan migration
+php artisan make:mode Student
+
+php artisan cache:clear
+php artisan config:clear
+php artisan route:clear
+php artisan view:clear
+php artisan view:clear
+php artisan cache:clear
+php artisan config:clear
+php artisan route:clear
+php artisan view:clear
+
+composer dump-autoload
